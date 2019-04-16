@@ -1,0 +1,93 @@
+.home-myInfo{
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding-top:100px; 
+  .myInfo-head{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .myInfo-name{
+    margin: 20px 0;
+    font-family: Roboto,serif;
+    font-size: 30px;
+    line-height: 2;
+    font-weight: 400;
+    color: #696969;
+  }
+  .myInfo-code{
+    margin-top: 100px;
+    width: 160px;
+    text-align: center;
+    img{
+      width: 100%;
+    }
+    span{
+      line-height: 2;
+    }
+  }
+  .myInfo-link{
+    color: #696969;
+    a{
+      color:  #696969;
+    }
+    .point{
+      cursor: pointer;
+      &:hover{
+        color: #0099ff;
+      }
+    }
+    .split{
+      padding: 10px;
+    }
+  }
+  .myInfo-loginBox{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    .myInfo-login{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      width: 300px;
+      height: 50px;
+      background:#008080;
+      border-radius: 4px;
+      text-align: center;
+      padding: 50px 0;
+      span{
+        padding: 0 10px;
+        color: #fff;
+      }
+      input{
+        border: none;
+        width: 100px;
+      }
+      div{
+        padding-top: 30px;
+        span{
+          background: #bfbfbf;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 4px;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
